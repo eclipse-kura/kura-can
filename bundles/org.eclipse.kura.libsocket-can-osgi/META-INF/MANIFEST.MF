@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1769603589912
+Bnd-LastModified: 1769680896592
 Build-Jdk-Spec: 17
 Bundle-ClassPath: .,libsocket-can-java.jar
 Bundle-Description: Eclipse Kura wrapper for libsocket-can
