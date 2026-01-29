@@ -39,7 +39,7 @@
         <dependency>
             <groupId>org.eclipse.kura</groupId>
             <artifactId>libsocket-can-osgi</artifactId>
-            <version>2.0.0-SNAPSHOT</version>
+            <version>4.0.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
@@ -62,7 +62,7 @@
 
         <!-- name of the JAR produced in bundles/target -->
         <protocol.can.jar.name>org.eclipse.kura.protocol.can-4.0.0-SNAPSHOT.jar</protocol.can.jar.name>
-        <libsocket.can.osgi.jar.name>libsocket-can-osgi-2.0.0-SNAPSHOT.jar</libsocket.can.osgi.jar.name>
+        <libsocket.can.osgi.jar.name>libsocket-can-osgi-4.0.0-SNAPSHOT.jar</libsocket.can.osgi.jar.name>
 
         <!--
             Available DEB architectures:

@@ -41,7 +41,7 @@
         <dependency>
             <groupId>org.eclipse.kura</groupId>
             <artifactId>libsocket-can-osgi</artifactId>
-            <version>2.0.0-SNAPSHOT</version>
+            <version>4.0.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
@@ -188,10 +188,10 @@
                             -Dkura.snapshots=${kura.workdir}/user/snapshots
                             -Dlog4j.configurationFile=file:${kura.workdir}/log4j/log4j.xml
                         </argLine>
-                        
-                        
+
+
                         <!-- <appArgLine>-consoleLog -console 5002 -noExit</appArgLine> -->
-                        
+
                         <defaultStartLevel>
                             <level>4</level>
                             <autoStart>true</autoStart>
