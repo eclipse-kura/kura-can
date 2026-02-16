@@ -19,11 +19,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.eclipse.kura</groupId>
-    <artifactId>kura-can-tycho-deps</artifactId>
+    <artifactId>kura-can-pde-deps</artifactId>
     <version>4.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
-    <name>Kura CAN Tycho Deps</name>
+    <name>Kura CAN PDE Deps</name>
 
     <distributionManagement>
         <repository>
