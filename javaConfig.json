@@ -1,0 +1,7 @@
+{
+    "projects": [
+        "bundles/org.eclipse.kura.protocol.can",
+        "tests/org.eclipse.kura.protocol.can.test"
+    ],
+    "targetPlatform": "target-definition/kura-can.target"
+}
