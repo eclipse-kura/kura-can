@@ -1,29 +1,27 @@
 /*******************************************************************************
- * Copyright (c) 2011, 2020 Eurotech and/or its affiliates and others
- * 
+ * Copyright (c) 2011, 2026 Eurotech and/or its affiliates and others
+ *
  * This program and the accompanying materials are made
  * available under the terms of the Eclipse Public License 2.0
  * which is available at https://www.eclipse.org/legal/epl-2.0/
- * 
+ *
  * SPDX-License-Identifier: EPL-2.0
- * 
+ *
  * Contributors:
  *  Eurotech
  *******************************************************************************/
 package org.eclipse.kura.protocol.can;
-
-import java.io.IOException;
-
-import org.eclipse.kura.KuraErrorCode;
-import org.eclipse.kura.KuraException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import de.entropia.can.CanSocket;
 import de.entropia.can.CanSocket.CanFrame;
 import de.entropia.can.CanSocket.CanId;
 import de.entropia.can.CanSocket.CanInterface;
 import de.entropia.can.CanSocket.Mode;
+import java.io.IOException;
+import org.eclipse.kura.KuraErrorCode;
+import org.eclipse.kura.KuraException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class CanConnectionServiceImpl implements CanConnectionService {
 
@@ -101,5 +99,4 @@ public class CanConnectionServiceImpl implements CanConnectionService {
             throw e;
         }
     }
-
 }

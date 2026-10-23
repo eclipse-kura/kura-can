@@ -1,12 +1,12 @@
 /*******************************************************************************
- * Copyright (c) 2011, 2020 Eurotech and/or its affiliates and others
- * 
+ * Copyright (c) 2011, 2026 Eurotech and/or its affiliates and others
+ *
  * This program and the accompanying materials are made
  * available under the terms of the Eclipse Public License 2.0
  * which is available at https://www.eclipse.org/legal/epl-2.0/
- * 
+ *
  * SPDX-License-Identifier: EPL-2.0
- * 
+ *
  * Contributors:
  *  Eurotech
  *******************************************************************************/
@@ -14,7 +14,6 @@ package org.eclipse.kura.protocol.can.test;
 
 import java.io.IOException;
 import java.util.Map;
-
 import org.eclipse.kura.KuraException;
 import org.eclipse.kura.configuration.ConfigurableComponent;
 import org.eclipse.kura.protocol.can.CanConnectionService;
@@ -28,7 +27,8 @@ import org.slf4j.LoggerFactory;
 
 public class CanSocketTest implements ConfigurableComponent {
 
-    private static final boolean IS_MAC = System.getProperty("os.name").toLowerCase().startsWith("mac");
+    private static final boolean IS_MAC =
+            System.getProperty("os.name").toLowerCase().startsWith("mac");
 
     private static final Logger logger = LoggerFactory.getLogger(CanSocketTest.class);
 
