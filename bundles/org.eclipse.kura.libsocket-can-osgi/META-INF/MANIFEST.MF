@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1769683982325
-Build-Jdk-Spec: 17
+Bnd-LastModified: 1794412115910
+Build-Jdk-Spec: 21
 Bundle-ClassPath: .,libsocket-can-java.jar
 Bundle-Description: Eclipse Kura wrapper for libsocket-can
 Bundle-ManifestVersion: 2
@@ -9,5 +9,5 @@ Bundle-SymbolicName: libsocket-can-osgi
 Bundle-Version: 4.0.0.SNAPSHOT
 Created-By: Apache Maven Bundle Plugin 5.1.8
 Export-Package: de.entropia.can;version="1.0.0"
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
 Tool: Bnd-6.3.1.202206071316
